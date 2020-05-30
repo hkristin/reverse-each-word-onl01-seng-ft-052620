@@ -6,6 +6,7 @@
     return_array << sentence.reverse
   end
   return_array.join(" ")
+  break
 end
 
 def reverse_each_word(sentence)
